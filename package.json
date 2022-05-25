@@ -4,7 +4,10 @@
   "description": "Webservice for Zebra ZPL printing",
   "main": "main.js",
   "scripts": {
-    "start": "node main.js"
+    "start": "node main.js",
+    "scripts": {
+      "start": "http-server"
+    }
   },
   "keywords": [
     "zebra",
@@ -35,16 +38,5 @@
     "@types/uuid": "^8.3.4",
     "concurrently": "^7.2.1",
     "http-server": "^14.1.0"
-  },
-  "directories": {
-    "lib": "lib"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mrothenbuecher/zpl-rest.git"
-  },
-  "bugs": {
-    "url": "https://github.com/mrothenbuecher/zpl-rest/issues"
-  },
-  "homepage": "https://github.com/mrothenbuecher/zpl-rest#readme"
+  }
 }
