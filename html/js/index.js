@@ -82,7 +82,7 @@ $(document).ready(function() {
           result.forEach(function(job) {
             var jobDate = new Date(job.date);
             if (jobDate >= min && jobDate < max) {
-              count++;
+              count++
             }
           });
           dat.push(count);

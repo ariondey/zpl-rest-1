@@ -36,6 +36,10 @@ rest.use(session({
     maxAge: 36000000
   }
 }))
+String.prototype.replaceAll = function (search, replacement) {
+  let target = this;
+  return target.split(search).join(replacement);
+};
 
 // JSON
 rest.use(express.json());
