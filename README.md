@@ -1,4 +1,4 @@
-[take part in this little survey](https://forms.gle/7CUv6PXQuTXQQgsR9)
+
 
 # zpl-rest
 zpl-rest provides the following
@@ -33,7 +33,7 @@ which you can replace with the following POST-request to `/rest/print`:
 
 ## installation and start
 
-download this repo und run `npm start`
+download this repo and run `npm start`
 
 ## frontend
 - overview page with statistics
@@ -69,10 +69,8 @@ you can edit the config.js with following options:
 | public              | bool          | if `false` server only reachable for localhost |     true  |
 | secret              | string        | the session secret                             |           |
 
-# thanks to
+# Assisting Technologies
 [template for the frontend](https://startbootstrap.com/themes/sb-admin-2/)
 
-[labelary for providing the preview service](http://labelary.com/service.html#node)
+[Labelary for Preview Service](http://labelary.com/service.html#node)
 
-# a little help is welcome :)
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KNC9P27TLHGDE&source=url)
